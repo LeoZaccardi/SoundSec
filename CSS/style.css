@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+}
+header{
+    padding: 10px;
+    background-color: #1e1c1c;
+    box-shadow: 0 5px 4px rgb(0, 0, 0);
+}
+.logo{
+    width: 80px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -30px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 150px;
+    padding: 0;
+    margin-top: 5px;
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+#hero{
+    background-image: url('../images/imagen-principal.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 91.7vh;
+    min-height: 91.7vh;
+    height: auto;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hero h1{
+    font-size: 7rem;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.5);
+    padding: 8px 16px;
+    border-radius: 5px;
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 30px 10px rgba(0,0,0,0.7);
+}
+
+#hero h2{
+    font-size: 3.8rem;
+    margin-bottom: 10px;
+    color: rgba(255, 247, 21, 0.837);
+    background-color: rgba(0,0,0,0.5);
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 5px;
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0  30px 10px rgba(0,0,0,0.7);
+}
+#hero p{
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+    background-color: rgba(0,0,0,0.5);
+    display: inline-block;
+    padding: auto;
+    border-radius: 5px;
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 30px 10px rgba(0,0,0,0.7);
+}
+
+footer{
+    padding: 5px;
+    background-color: #ddd;
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 1px;
+}
+@media (max-width: 600px){
+    .logo{
+        margin-bottom: 10px;
+        margin: 0 auto 10px auto;
+        display: block;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    #hero{
+        padding: 40px 15px;
+        min-height: 80vh;
+    }
+    #hero h1{
+        font-size: 3rem;
+        padding: 6px 12px;
+    }
+    #hero h2{
+        font-size: 2rem;
+        padding: 6px 12px;
+    }
+    #hero p{
+        font-size: 1.2rem;
+        padding: 10px 15px;
+    }
+
+    body{
+        text-align: center;
+        padding: 0 10px;
+    }
+    footer{
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+}
+
+//Servicios
+
+.hero-servicios ul{
+    list-style: none;
+}
+.hero-servicios li{
+    list-style: none ;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 3.5rem;
+    backdrop-filter: blur(1px);
+    color: rgba(255, 247, 21, 0.837);
+}
+.servicio-backup{
+    color: #ffffff;
+    margin: 20px auto;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0 0 30 rgba(0,0,0,0.7);
+    border-radius: 5px;
+    text-align: center;
+}
+.servicio-backup p{
+    flex: 1;
+    margin: 0;
+    font-size: 1rem;
+    text-align: left;
+}
+.logo-backup{
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: auto;
+    backdrop-filter: blur(1px);
+    border-radius: 5px;
+}
+
+.servicio-redes{
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.5);
+    margin: 20px auto;
+    box-shadow: 0 0 30 rgba(0,0,0,0.7);
+    border-radius: 5px;
+    text-align: center;
+}
+.servicio-redes p{
+    flex: 1;
+    margin: 0;
+    font-size: 1rem;
+    text-align: left;
+}
+.logo-redes{
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: auto;
+    backdrop-filter: blur(1px);
+    border-radius: 5px;
+}
+.servicio-leaks{
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.5);
+    margin: 20px auto;
+    box-shadow: 0 0 30 rgba(0,0,0,0.7);
+    border-radius: 5px;
+    text-align: center;
+}
+.servicio-leaks p{
+    flex: 1;
+    margin: 0;
+    font-size: 1rem;
+    text-align: left;
+}
+.logo-leaks{
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: auto;
+    backdrop-filter: blur(1px);
+    border-radius: 5px;
+}
+#cta-servicios{
+    color: #d4c602;
+    display: flex;
+    font-size: 1.5rem;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+    box-shadow: 0 0  30px 10px rgba(0,0,0,0.7);
+}
+#cta-servicios .btn{
+    color: #f0f0f0;
+}

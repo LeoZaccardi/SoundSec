@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <img src="../images/logoE.png" alt="Logo SoundSec" class="logo">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="clientes.html">Clientes</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero" class="hero-contacto">
+        <section id="contacto">
+            <h1>Contactanos</h1>
+            <form id="formulario-contacto" action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="plan">Selecciona un plan:</label>
+                <select name="plan" id="plan">
+                    <option value="basico">Plan Básico</option>
+                    <option value="pro">Plan Pro</option>
+                    <option value="premium">Plan Premium</option>
+                </select>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" rows="5"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </section>
+    <footer>
+        <p>&copy; 2025 SoundSec. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
