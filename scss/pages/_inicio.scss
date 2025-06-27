@@ -1,0 +1,19 @@
+main {
+  background-image: url('../images/imagen-principal.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 91.7vh;
+  padding: 3rem 1rem;
+  color: white;
+}
+
+main h1,
+main p,
+main ul {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}

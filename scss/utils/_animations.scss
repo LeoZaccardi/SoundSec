@@ -1,0 +1,28 @@
+// Animacion INCIO
+#hero {
+  position: relative;
+  overflow: visible;
+
+  .floating-icon {
+    font-size: 3rem;
+    position: absolute;
+    animation: floatUp 1.7s ease-out forwards;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    pointer-events: none;
+  }
+
+  @keyframes floatUp {
+    0% {
+      opacity: 0;
+      transform: translateY(10px) scale(0.5);
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-30px) scale(1.2);
+      opacity: 0;
+    }
+  }
+}

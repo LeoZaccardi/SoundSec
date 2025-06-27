@@ -1,0 +1,50 @@
+@mixin hero-responsive {
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 0.9rem;
+    }
+  }
+}
+// Mixins para paddings responsivos
+@mixin responsive-padding {
+  @media (max-width: 768px) {
+    padding: 2rem 1rem;
+  }
+  @media (max-width: 480px) {
+    padding: 1rem;
+  }
+}
+// Centrar elementos con Flexbox
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Textos con sombra
+@mixin text-shadow($color: rgba(0, 0, 0, 0.5)) {
+  text-shadow: 0 0 10px $color;
+}
+
+// Transiciones suaves
+@mixin transition($time: 0.3s) {
+  transition: all $time ease;
+}

@@ -1,0 +1,44 @@
+main {
+  background-image: url('../images/imagen-principal.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 91.7vh;
+}
+
+main h1 {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+article {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+article h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+article p,
+article li {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+article ul {
+  padding-left: 1.2rem;
+}
+
+article ul li {
+  list-style: disc;
+}

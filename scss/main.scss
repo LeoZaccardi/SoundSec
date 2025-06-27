@@ -1,0 +1,22 @@
+// utils
+@import 'utils/variables';
+@import 'utils/mixins';
+@import 'utils/animations';
+
+// base
+@import 'base/reset';
+@import 'base/responsive';
+
+// layout
+@import 'layout/navbar';
+@import 'layout/hero';
+@import 'layout/footer';
+@import 'layout/cards';
+
+
+// pages
+@import 'pages/contacto';
+@import 'pages/blog';
+@import 'pages/clientes';
+@import 'pages/inicio';
+@import 'pages/servicios';

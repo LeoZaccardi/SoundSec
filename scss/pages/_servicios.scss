@@ -1,0 +1,47 @@
+main {
+  background-image: url('../images/imagen-principal.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 91.7vh;
+  padding: 3rem 1rem;
+  color: white;
+
+  h1,
+  p,
+  ul {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.img-servicio {
+  max-height: 150px;
+  object-fit: contain;
+  padding: 1rem;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+// Colores distintivos
+.border-primary .btn {
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+.border-success .btn {
+  color: #198754;
+  border-color: #198754;
+}
+.border-warning .btn {
+  color: #ffc107;
+  border-color: #ffc107;
+}

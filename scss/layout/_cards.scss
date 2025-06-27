@@ -1,0 +1,38 @@
+.card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+.card-body {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+.card-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+.card-text {
+  font-size: 1rem;
+  color: #333;
+}
+.img-servicio {
+  max-height: 150px;
+  object-fit: contain;
+  padding: 1rem;
+}
+.border-primary .btn {
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+.border-success .btn {
+  color: #198754;
+  border-color: #198754;
+}
+.border-warning .btn {
+  color: #ffc107;
+  border-color: #ffc107;
+}

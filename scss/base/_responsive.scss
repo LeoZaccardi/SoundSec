@@ -1,0 +1,102 @@
+@media (max-width: 992px) {
+  .img-servicio {
+    max-height: 120px;
+  }
+  main h1 {
+    font-size: 2rem;
+  }
+  main p,
+  main ul {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 3.5rem;
+  }
+  #hero h2 {
+    font-size: 2rem;
+  }
+  #hero p {
+    font-size: 1rem;
+  }
+  .contacto-main h1 {
+    font-size: 2rem;
+  }
+  .contacto-main p {
+    font-size: 1.2rem;
+  }
+  #formulario-contacto {
+    padding: 20px;
+  }
+  main h1 {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  article h2 {
+    font-size: 1.3rem;
+  }
+  article p,
+  article li {
+    font-size: 0.95rem;
+  }
+  .container {
+    padding: 1rem !important;
+  }
+  .card-title {
+    font-size: 1.1rem;
+  }
+  .card-text {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .img-servicio {
+    max-height: 100px;
+  }
+  main {
+    padding: 2rem 1rem;
+  }
+  .card-title {
+    font-size: 1.1rem;
+  }
+  .card-text {
+    font-size: 0.95rem;
+  }
+  article {
+    padding: 1rem;
+  }
+  article h2 {
+    font-size: 1.2rem;
+  }
+  article p,
+  article li {
+    font-size: 0.9rem;
+  }
+  .card {
+    margin-bottom: 1rem;
+  }
+  .container {
+    padding: 0 !important;
+  }
+  #hero h1 {
+    font-size: 2.5rem;
+  }
+  #hero h2 {
+    font-size: 1.5rem;
+  }
+  #hero p {
+    font-size: 0.9rem;
+  }
+  .contacto-main {
+    padding: 20px;
+  }
+  #formulario-contacto {
+    padding: 15px;
+  }
+  #formulario-contacto button {
+    font-size: 1rem;
+  }
+}

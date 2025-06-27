@@ -233,7 +233,8 @@ footer a:hover i {
 
 .img-servicio {
   max-height: 150px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: 1rem;
 }
 
@@ -437,7 +438,8 @@ main ul {
 
 .img-servicio {
   max-height: 150px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: 1rem;
 }
 
@@ -463,6 +465,4 @@ main ul {
 .border-warning .btn {
   color: #ffc107;
   border-color: #ffc107;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=main.css.map */
